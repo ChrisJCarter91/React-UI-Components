@@ -1,0 +1,38 @@
+.button-container {
+    height: 100px;
+    display: flex;
+  }
+  
+  .number-button {
+    width: 100px;
+    border: 1px solid white;
+    background: #3ab5e5;
+  }
+  
+  .three-quarter-button {
+    width: 300px;
+    border: 1px solid white;
+    background: #3ab5e5;
+  }
+  
+  .red-button {
+    background: #bb1333;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
+  }
+  .num-button {
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
+  }
+  
+  .three-text {
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
+  }
