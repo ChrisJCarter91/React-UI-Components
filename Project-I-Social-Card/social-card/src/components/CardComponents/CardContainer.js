@@ -1,16 +1,16 @@
 import React from 'react';
 import './Card.css';
-
-import CardBanner from './CardBanner';
 import CardContent from './CardContent';
+import CardBanner from './CardBanner';
 
-
-function CardContainer() {
-    return <div className="card-container">
-        <CardBanner />
-        <CardContent />
+const CardContainer = () => {
+  return (
+    <div className="banner-wrapper">
+      <CardBanner />
+      <CardContent />
     </div>
-}
+  );
+};
 
 
 export default CardContainer;
